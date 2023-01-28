@@ -227,24 +227,29 @@ font-size: 14px;
 /* .about */
 .service{
   display: block;
-  padding: 5% 10%;
-  width: 100%;
+  padding: 5% 25% 5% 40% ;
+  margin-left: -20%;
+  /* width: 100%; */
 }
 .service-wrap__item--first{
   background-color: #B31667;
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
+  width: 45%;
+  justify-content: center;
 }
 .service-wrap__item--first img{
   align-items: center;
-  width: 35%;
+  width: 40%;
   display: inline;
+
 }
 .service-wrap__item{
   display: block;
   height: 100%;
-  min-width: 497.14px;
+  /* min-width: 497.14px; */
+  
 }
 .service-wrap__item--second {
   background-color: #B35B8B;
@@ -254,7 +259,7 @@ font-size: 14px;
 }
 .service-wrap__item--second img {
   /* align-items: center; */
-  width: 20vh;
+  width: 15vh;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -266,7 +271,7 @@ font-size: 14px;
 }
 .service-wrap__item--therd img {
   /* align-items: center; */
-  width:20vh;
+  width:15vh;
   display: flex;
 }
 
@@ -277,7 +282,8 @@ font-size: 14px;
   padding: 16px 0;
 }
 .text__box{
-  padding: 0 10%;
+  padding: 0 11% 50px;
+  
 } 
 .service__text{
   text-align: left;
@@ -299,7 +305,6 @@ font-size: 14px;
   /* justify-content: space-between; */
   /* flex-direction: row; */
   /* justify-content: space-around; */
-  /* flex-grow: 1; */
 }
 
 .flex__blog{
@@ -408,42 +413,35 @@ font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 600px; */
-    z-index: 1;
+    
   }
-.backgraund__left{
+.backgraund{
   /* margin-right: 50%; */
-  display: block;
-  z-index: 2;
+  float: left;
 }
-.backgraund__left img{
+.backgraund img{
   display: inline-block;
   width: 100%;
-  z-index: 1;
+  
 
 }
-.backgraund__right{
-  display: block;
-}
-.backgraund__right img{
-  width: 100%;
-}
+
 .recruit__logo-left{
   position: absolute;
   top: 50%;
   /* left: 50%; */
   font-size: 30px;
-  color: #ff0;
+  color: #fff;
   /* padding: 0;
   margin: 0; */
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
 .recruit__logo-right{
   position: absolute;
   top: 50%;
   left: 50%;
   font-size: 30px;
-  color: #ff0000;
+  color: #fff;
   /* padding: 50%;
   margin-right: 0; */
   /* transform: translate(-50%, -50%); */
